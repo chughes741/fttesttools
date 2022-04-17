@@ -7,8 +7,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
-# include "../libft_bonus.h"
-# include "./src/testutils.c"
 
 void test_atoi();
 void test_bzero();
