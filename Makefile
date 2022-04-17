@@ -14,7 +14,7 @@ LIB			=	$(LIBDIR)/*.a
 
 # Compiles the unit tester, runs it, and cleans up
 test: $(SRCS) clean
-	@$(CC) $(CFLAGS) $(SRCS) unittests_libft.c -o testoutput
+	@$(CC) $(CFLAGS) $(SRCS) *.c -o testoutput
 	@./testoutput
 	@$(RM) testoutput
 
